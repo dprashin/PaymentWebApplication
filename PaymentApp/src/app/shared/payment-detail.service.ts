@@ -8,7 +8,5 @@ export class PaymentDetailService {
 
   constructor() { }
 
-  readonly baseUrl = 'http://localhost:61236/api/PaymentDetail'
-
   formData:PaymentDetail = new PaymentDetail();
 }
